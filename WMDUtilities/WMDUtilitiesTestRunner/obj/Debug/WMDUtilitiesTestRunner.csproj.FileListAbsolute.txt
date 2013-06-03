@@ -1,0 +1,5 @@
+c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTestRunner\bin\Debug\WMDUtilitiesTestRunner.exe.config
+c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTestRunner\bin\Debug\WMDUtilitiesTestRunner.exe
+c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTestRunner\bin\Debug\WMDUtilitiesTestRunner.pdb
+c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTestRunner\obj\Debug\WMDUtilitiesTestRunner.exe
+c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTestRunner\obj\Debug\WMDUtilitiesTestRunner.pdb

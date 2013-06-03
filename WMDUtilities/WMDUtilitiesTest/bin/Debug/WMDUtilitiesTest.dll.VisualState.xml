@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1009]c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTest\bin\Debug\WMDUtilitiesTest.dll</TopNode>
+  <SelectedNode>[0-1009]c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTest\bin\Debug\WMDUtilitiesTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1009]c:\users\sadams\documents\visual studio 2012\Projects\WMDUtilities\WMDUtilitiesTest\bin\Debug\WMDUtilitiesTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1010]WMDUtilitiesTest" Expanded="true" />
+    <Node UniqueName="[0-1011]WMDUtilitiesTest.ObjectExtensions" Expanded="true" />
+    <Node UniqueName="[0-1000]WMDUtilitiesTest.ObjectExtensions.ConverterTest" Expanded="true" />
+    <Node UniqueName="[0-1005]WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestInValidStringToIntger" Expanded="true" />
+    <Node UniqueName="[0-1007]WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToDate" Expanded="true" />
+    <Node UniqueName="[0-1001]WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestValidStringToIntger" Expanded="true" />
+  </Nodes>
+</VisualState>

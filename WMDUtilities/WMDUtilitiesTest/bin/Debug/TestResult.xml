@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\sadams\Documents\GitHub\SadamsCode\WMDUtilities\WMDUtilitiesTest\bin\Debug\WMDUtilitiesTest.dll" total="11" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-06-03" time="17:54:10">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\sadams\Documents\GitHub\SadamsCode\WMDUtilities\WMDUtilitiesTest\bin\Debug" machine-name="SCATURION" user="sadams" user-domain="Scaturion" />
+  <culture-info current-culture="en-NZ" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\sadams\Documents\GitHub\SadamsCode\WMDUtilities\WMDUtilitiesTest\bin\Debug\WMDUtilitiesTest.dll" executed="True" result="Success" success="True" time="0.166" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="WMDUtilitiesTest" executed="True" result="Success" success="True" time="0.150" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="ObjectExtensions" executed="True" result="Success" success="True" time="0.150" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="ClonerTest" executed="True" result="Success" success="True" time="0.084" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="TestIntegerClone" executed="True" result="Success" success="True" time="0.067" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ClonerTest.TestIntegerClone(82)" executed="True" result="Success" success="True" time="0.061" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="TestStringClone" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ClonerTest.TestStringClone(&quot;I\'ll Be Back!&quot;)" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ConverterTest" executed="True" result="Success" success="True" time="0.064" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="TestInValidStringToIntger" executed="True" result="Success" success="True" time="0.041" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestInValidStringToIntger(&quot;ABC&quot;)" executed="True" result="Success" success="True" time="0.041" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="TestStringToDate" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToDate(&quot;6 February 1982&quot;)" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="TestStringToEnum" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToEnum(&quot;Orange&quot;)" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToEnum(&quot;Red&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToEnum(&quot;Green&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="TestStringToEnumException" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestStringToEnumException(&quot;Black&quot;)" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="TestValidStringToIntger" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestValidStringToIntger(&quot;0&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestValidStringToIntger(&quot;-123&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="WMDUtilitiesTest.ObjectExtensions.ConverterTest.TestValidStringToIntger(&quot;82&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
