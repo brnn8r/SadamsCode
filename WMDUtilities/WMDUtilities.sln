@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMDUtilities", "WMDUtilities\WMDUtilities.csproj", "{097EE897-FB76-42A7-A203-6FCDB2BB27B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMDUtilitiesTest", "WMDUtilitiesTest\WMDUtilitiesTest.csproj", "{5B05194B-553F-460D-AE58-2353193002A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{866EFFED-A1F5-4414-AECF-216E181EFBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097EE897-FB76-42A7-A203-6FCDB2BB27B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097EE897-FB76-42A7-A203-6FCDB2BB27B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097EE897-FB76-42A7-A203-6FCDB2BB27B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097EE897-FB76-42A7-A203-6FCDB2BB27B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B05194B-553F-460D-AE58-2353193002A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B05194B-553F-460D-AE58-2353193002A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B05194B-553F-460D-AE58-2353193002A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B05194B-553F-460D-AE58-2353193002A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
