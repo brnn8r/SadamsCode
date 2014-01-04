@@ -10,14 +10,19 @@ namespace WMDUtilities.ObjectExtensions.Cloner
 {
     public class SerializingCloner<T> : ICloner<T>
     {
-        private object _o;
+        private T _o;
 
-        public SerializingCloner(object o)
+        public SerializingCloner(T o)
         {
             _o = o;
         }
 
         public T Clone()        
+        {
+            return Clone(_o);            
+        }
+
+        public T Clone(T t)
         {
             if (typeof(T).IsValueType)
             {
@@ -42,7 +47,6 @@ namespace WMDUtilities.ObjectExtensions.Cloner
                 stream.Seek(0, SeekOrigin.Begin);
                 return (T)formatter.Deserialize(stream);
             }
-            
         }
         
     }

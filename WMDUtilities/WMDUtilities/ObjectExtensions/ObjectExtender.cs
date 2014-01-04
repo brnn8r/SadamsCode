@@ -21,7 +21,7 @@ namespace WMDUtilities.ObjectExtensions
             return new DebugTracer(o);
         }
 
-        public static ICloner<T> Cloner<T>(this object o)
+        public static ICloner<T> Cloner<T>(this T o)
         {
             return new SerializingCloner<T>(o);
         }

@@ -35,14 +35,17 @@ namespace WMDUtilitiesTest.ObjectExtensions
         [TestCase("-123")]        
         public void TestValidStringToIntger(String stringInt)
         {
-            IntegerConvertTest(stringInt);
+            var legacyConvertedString = Convert.ToInt32(stringInt);
+            var testConvertedString = IntegerConvertTest(stringInt);
+
+            Assert.That(legacyConvertedString, Is.EqualTo(testConvertedString));
         }
 
         [TestCase("ABC")]
         [ExpectedException(typeof(Exception))]
         public void TestInValidStringToIntger(string badString)
         {
-            IntegerConvertTest(badString);
+            var convertedString = IntegerConvertTest(badString);
         }
 
         [TestCase("6 February 1982")]
@@ -55,8 +58,8 @@ namespace WMDUtilitiesTest.ObjectExtensions
 
             DateTime dt = testDate.Converter<DateTime>().Convert();
             dt.Tracer().Trace("dt");
-
-            Assert.AreEqual(parsedDate, dt);
+            
+            Assert.That(parsedDate, Is.EqualTo(dt));
         }
         
         public void TestDateToDate(DateTime testDate)
@@ -66,7 +69,7 @@ namespace WMDUtilitiesTest.ObjectExtensions
             DateTime dt = testDate.Converter<DateTime>().Convert();
             dt.Tracer().Trace("dt");
 
-            Assert.AreEqual(testDate, dt);
+            Assert.That(testDate, Is.EqualTo(dt));
         }
 
         private TrafficLight TrafficLightConversionTest(string testLight)
@@ -81,13 +84,13 @@ namespace WMDUtilitiesTest.ObjectExtensions
 
         [TestCase("Red")]
         [TestCase("Orange")]
-        [TestCase("Green")]
+        [TestCase("Green")]        
         public void TestStringToEnum(string testLight)
         {
             TrafficLight tl = TrafficLightConversionTest(testLight);
 
             TrafficLight parsedLight;
-            Assert.IsTrue(Enum.TryParse(testLight, out parsedLight));
+            Assert.That(Enum.TryParse(testLight, out parsedLight), "Invalid traffic light");
         }
         
         [TestCase("Black")]
@@ -98,7 +101,7 @@ namespace WMDUtilitiesTest.ObjectExtensions
 
             TrafficLight parsedLight;
 
-            Assert.IsTrue(Enum.TryParse(testLight, out parsedLight));
+            Assert.That(Enum.TryParse(testLight, out parsedLight));
             
         }
     }
